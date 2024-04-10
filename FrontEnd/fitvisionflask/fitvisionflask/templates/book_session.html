@@ -27,25 +27,18 @@
                         <option value="virtualTraining">Virtual Training</option>
                     </select>
                 </div>
-                <div class="mb-4">
-                    <label for="preferredTrainer" class="text-sm">Preferred Trainer:</label>
-                    <select class="form-select mt-2 h-8 px-3 w-full text-black rounded-md" id="preferredTrainer" name="preferredTrainer">
-                        <option value="trainer1">Trainer 1</option>
-                        <option value="trainer2">Trainer 2</option>
-                        <!-- Add more trainers as needed -->
-                    </select>
-                </div>
-                <div class="mb-4">
-                    <label for="sessionDate" class="text-sm">Preferred Session Date:</label>
-                    <input type="date" class="form-input mt-2 h-8 px-3 w-full text-black rounded-md" id="sessionDate" name="sessionDate" required>
-                </div>
-                <div class="mb-4">
-                    <label for="sessionTime" class="text-sm">Preferred Session Time:</label>
-                    <input type="time" class="form-input mt-2 h-8 px-3 w-full text-black rounded-md" id="sessionTime" name="sessionTime" required>
-                </div>
+            
+           
+
                 <button type="submit" class="bg-blue-500 text-white py-2 px-4 rounded-full">Book Session</button>
-            </form>
+
+            </div>
+            
+            
         </div>
+        <div class="calendly-inline-widget" data-url="https://calendly.com/dc12/personalized-trainer-session" style="min-width:320px;height:700px; "></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+            </form>
     </div>
 </div>
 {% endblock %}
